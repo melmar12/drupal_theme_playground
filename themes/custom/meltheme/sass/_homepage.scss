@@ -5,11 +5,24 @@ main{
 .layout-content{
      @include span(8);
 }
- 
+
 .layout-sidebar-first{
      @include span(2);
 }
 
 .layout-sidebar-second{
      @include span(2 last);
+}
+
+.article-list {
+  a {
+    text-decoration: none;
+  }
+
+  p {
+    line-height: 1.5;
+  }
+  .views-row {
+    margin: 40px 0;
+  }
 }
